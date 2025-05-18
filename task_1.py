@@ -1,7 +1,7 @@
-time_str = '1h 45m,360s,25m,30m 120s,2h 60s'
+time = '1h 45m,360s,25m,30m 120s,2h 60s'
 total_minutes = 0
 
-for time_part in time_str.split(','):
+for time_part in time.split(','):
     for component in time_part.split():
         if 'h' in component:
             hours = int(component.replace('h', ''))
