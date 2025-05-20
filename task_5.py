@@ -16,7 +16,6 @@ class TestCase:
     def get_test_case(self):
         print({"Шаги": self.steps, "Ожидаемый результат": self.result})
 
-
 test_case_1 = TestCase()
 test_case_1.set_step(1, 'Перейти на сайт')
 test_case_1.set_step(3, 'Перейти в раздел Товары')
